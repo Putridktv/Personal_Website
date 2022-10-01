@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
+<body class="main-container bg-gradient-to-r from-sky-600 to-blue-900">
+    <nav>
         <p>Putri Dwi Oktaviani</p>
-
-        <nav>
             <a href="#about">About</a> | 
             <a href="#school_history">School History</a> |
             <a href="#work_experience">Work Experience</a> |
@@ -18,12 +18,76 @@
             <a href="#skills">Skills</a> |
             <a href="#contact">Contact</a>
             <br/>
-        </nav>
-    </header>
+    </nav>
 
-    <main>
-        
-    </main>
+    <div id="main-container" class="lg:mx-auto">
+            <header>
+                <div class="container">
+                    <div class="flex flex-wrap">
+                        <div class="w-full self-center px4 md:w-1/2 pt-4">
+                            <img src="assets/foto-putri.jpg" alt="Photo Profil" class="max-w-full mx-auto rounded-full border-4 border-blue-900 md:w-48"/><br/>
+                            <div class="flex justify-center">
+                                <div class="flex items-center gap-1">
+                                    <img src="assets/icon-loc.png" width="20px" height="20px" alt="Icon Logo" class="max-w-full mx-1 md:1/2"/> 
+                                    <p><span class="font-medium">Yogyakarta, Indonesia</span></p>
+                                </div>
+                            </div>
+                            
+                        </div>
     
+                        <div class="w-full self-end px-4 md:w-1/2 text-center md:text-left md:content-center md:pr-5">
+                            <h1 class="text-3xl font-bold text-blue-900 md:text-4xl pt-6 md:pt-0">Hello,</h1>
+                            <h2 class="text-2xl font-bold mt-2 mb-2 md:text-3xl">I'm Putri Dwi Oktaviani</h2>
+    
+                            <p class="font-medium mb-10 leading-relaxed md:pr-10">
+                                I am a student at a university in Yogyakarta. 
+                                Now I'm in my fifth semester and I'm taking Kampus Merdeka 
+                                Backend Engineering at Ruangguru.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+            <main>
+               <section id="personal_info">
+                <div class="container bg-blue-50">
+                        <h3 class="text-xl font-bold mt-2 mb-2">About me</h3>
+                        <article>
+                            <p>
+                                I was born in Yogyakarta, October 30, 2000. I live in Blunyahrejo, Karangwaru, Yogyakarta. I'm a student at Universitas Teknologi Digital Indonesia, 
+                                majoring in Informatics. I chose Informatics major because I am 
+                                interested in programming especially in backend engineering and 
+                                software quality assurance. Previously I worked as a Digital 
+                                Marketing and Designer in a printing company. However, my interest 
+                                in programming made me decide to continue my studies to college and 
+                                majoring in Informatics.
+                            </p>
+                        
+                            <p class="pt-4">
+                                I am an enthusiastic and highly motivated student with leadership 
+                                skills, initiative and looking for new challenges. I am also 
+                                experienced in various internal and external campus organizations. 
+                                My hobbies are singing, playing badminton, cooking, and playing guitar.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+               </section>
+
+               <section id="edukasi">
+
+
+               </section>
+
+               <section id="portofolio">
+                
+               </section>
+            </main>
+        
+            <footer>
+        
+            </footer> 
+    </div>  
 </body>
 </html>
