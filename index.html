@@ -9,22 +9,32 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="main-container bg-gradient-to-r from-sky-600 to-blue-900">
-    <nav>
-        <p>Putri Dwi Oktaviani</p>
-            <a href="#about">About</a> | 
-            <a href="#school_history">School History</a> |
-            <a href="#work_experience">Work Experience</a> |
-            <a href="#organization_experience">Organizations Experience</a> |
-            <a href="#skills">Skills</a> |
-            <a href="#contact">Contact</a>
-            <br/>
-    </nav>
+    <header>
+        <div class="bg-white bg-opacity-10 text-white top-0 left-0 flex-wrap p-4">
+            <div class="container mx-auto">
+                <div class="md:flex md:justify-around">
+                    <div class="flex justify-center"> 
+                        <p class="font-bold">Putri Dwi Oktaviani</p>
+                    </div>
+                            
+                    <nav class="flex justify-center flex-wrap gap-3">
+                        <a href="#personal_info" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">About</a> 
+                        <a href="#education" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">School History</a> 
+                        <a href="#work_experience" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">Work Experience</a>  
+                        <a href="#portofolio" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">Portofolio</a>
+                        <br/>
+                    </nav>
+              </div>
+            </div>
+        </div>
+    </header>
 
-    <div id="main-container" class="lg:mx-auto">
-            <header>
-                <div class="container">
+    <main>
+        <div id="main-container" class="lg:mx-auto">
+            <section id="intro">
+                <div class="container mt-5">
                     <div class="flex flex-wrap">
-                        <div class="w-full self-center px4 md:w-1/2 pt-4">
+                        <div class="w-full self-center px4 md:w-1/2">
                             <img src="assets/foto-putri.jpg" alt="Photo Profil" class="max-w-full mx-auto rounded-full border-4 border-blue-900 md:w-48"/><br/>
                             <div class="flex justify-center">
                                 <div class="flex items-center gap-1">
@@ -39,55 +49,117 @@
                             <h1 class="text-3xl font-bold text-blue-900 md:text-4xl pt-6 md:pt-0">Hello,</h1>
                             <h2 class="text-2xl font-bold mt-2 mb-2 md:text-3xl">I'm Putri Dwi Oktaviani</h2>
     
-                            <p class="font-medium mb-10 leading-relaxed md:pr-10">
-                                I am a student at a university in Yogyakarta. 
+                            <p class="font-medium mb-10 leading-relaxed md:pr-16">
+                                I'm a student at a university in Yogyakarta. 
                                 Now I'm in my fifth semester and I'm taking Kampus Merdeka 
                                 Backend Engineering at Ruangguru.
                             </p>
                         </div>
                     </div>
                 </div>
-            </header>
+            </section>
             
-            <main>
-               <section id="personal_info">
-                <div class="container bg-blue-50">
-                        <h3 class="text-xl font-bold mt-2 mb-2">About me</h3>
-                        <article>
-                            <p>
-                                I was born in Yogyakarta, October 30, 2000. I live in Blunyahrejo, Karangwaru, Yogyakarta. I'm a student at Universitas Teknologi Digital Indonesia, 
-                                majoring in Informatics. I chose Informatics major because I am 
-                                interested in programming especially in backend engineering and 
-                                software quality assurance. Previously I worked as a Digital 
-                                Marketing and Designer in a printing company. However, my interest 
-                                in programming made me decide to continue my studies to college and 
-                                majoring in Informatics.
-                            </p>
-                        
-                            <p class="pt-4">
-                                I am an enthusiastic and highly motivated student with leadership 
-                                skills, initiative and looking for new challenges. I am also 
-                                experienced in various internal and external campus organizations. 
-                                My hobbies are singing, playing badminton, cooking, and playing guitar.
-                            </p>
-                        </article>
+            <section id="personal_info">
+                <div class="container px-6 py-6 w-11/12 mx-auto rounded-lg shadow-lg mb-20 mt-10">
+                    <h2 class="text-2xl font-bold mt-2 mb-2">About me</h2>
+                    <article>
+                        <p class="font-base mb-3 leading-relaxed text-justify">
+                            I was born in Yogyakarta, October 30, 2000. I live in Blunyahrejo, Karangwaru, Yogyakarta. I'm a student at Universitas Teknologi Digital Indonesia,majoring in Informatics. I chose Informatics major because I am 
+                            interested in programming especially in backend engineering and 
+                            software quality assurance. Previously I worked as a Digital 
+                            Marketing and Designer in a printing company. However, my interest 
+                            in programming made me decide to continue my studies to college and 
+                            majoring in Informatics. I'm an enthusiastic and highly motivated student with leadership 
+                            skills, initiative and looking for new challenges. I'm also 
+                            experienced in various internal and external campus organizations. 
+                            My hobbies are singing, playing badminton, cooking, and playing guitar.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="education">
+                <div class="container px-6 py-6 w-11/12 mx-auto rounded-lg shadow-lg mb-20">
+                <div class="p-4">
+                    <h1 class="text-2xl font-bold mt-2 mb-2">Education</h1>
+                    <div class="lg:grid grid-cols-2 gap-4">
+                        <div>
+                            <h2 class="text-lg font-bold mt-2">MI Negeri 1 Yogyakarta</h2>
+                            <p class="font-base mb-3 leading-relaxed">2006 - 2012</p>
+                        </div>
+                            
+                        <div>
+                            <h2 class="text-lg font-bold mt-2">MTs Negeri 6 Sleman Yogyakarta</h2>
+                            <p class="font-base mb-3 leading-relaxed">2012 - 2015</p>
+                        </div>
+
+                        <div>
+                            <h2 class="text-lg font-bold mt-2">SMK Negeri 2 Yogyakarta</h2>
+                            <p class="font-base mb-3 leading-relaxed">2015 - 2018, Multimedia Major</p>
+                        </div>                            
+
+                        <div>
+                            <h2 class="text-lg font-bold mt-2">Universitas Teknologi Digital Indonesia</h2>
+                            <p class="font-base mb-3 leading-relaxed">2020 - Present, Informatics Major</p>
+                        </div>
                     </div>
                 </div>
-               </section>
+            </section>
 
-               <section id="edukasi">
+            <section id="work_experience">
+                <div class="container px-6 py-6 w-11/12 mx-auto rounded-lg shadow-lg mb-20">
+                    <h2 class="text-2xl font-bold mt-2 mb-2">Work Experience</h2>
+                    <div class="lg:grid grid-cols-3 gap-4">
+                        <div>
+                            <h2 class="text-lg font-bold mt-2">Digital Marketing</h2>
+                            <p class="font-base mb-3 leading-relaxed md:pr-1">
+                                October - November 2018, UD. JDA STORE, Panggung Sari, 
+                                Sedan, Sariharjo, Ngaglik, Sleman, D.I Yogyakarta
+                            </p>
+                        </div>
+                            
+                        <div>
+                            <h2 class="text-lg font-bold mt-2">Graphic Designer</h2>
+                            <p class="font-base mb-3 leading-relaxed md:pr-1">
+                                August 2019 - August 2020, Agung Digital Printing, Jl. Babarsari No.5, Catur Tunggal, Depok, Janti, Sleman, D.i Yogyakarta
+                            </p>
+                        </div>
 
+                        <div>
+                            <h2 class="text-lg font-bold mt-2">Frelance  Software Tester</h2>
+                            <p class="font-base mb-3 leading-relaxed md:pr-1">
+                                September 2020 - Present, PT. ICP Cipta Prima, bla bla bla
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-               </section>
+            <section id="portofolio">
+                <div class="container px-6 py-6 w-11/12 mx-auto rounded-lg shadow-lg mb-10">
+                    <h2 class="text-2xl font-bold mt-2 mb-2">Portofolio</h2>
+                    <div class="lg:grid grid-cols-4 gap-4">
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                        <div>4</div>
+                        <div>5</div>
+                        <div>6</div>
+                        <div>7</div>
+                        <div>8</div>
+                        <div>9</div>
+                        <div>10</div>
+                        <div>11</div>
+                        <div>12</div>
+                    </div>
+                </div>
+            </section>
+        </div> 
+    </main>
 
-               <section id="portofolio">
-                
-               </section>
-            </main>
-        
-            <footer>
-        
-            </footer> 
-    </div>  
+    <footer align="center" class="mb-5 text-white">
+        <p class="text-base font-bold">Putri Dwi Oktaviani</p>
+        <p class="text-base">Copyright &copy; 2022</p>
+    </footer> 
 </body>
 </html>
