@@ -19,7 +19,7 @@
                             
                     <nav class="flex justify-center flex-wrap gap-3">
                         <a href="#personal_info" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">About</a> 
-                        <a href="#education" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">School History</a> 
+                        <a href="#education" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">Education</a> 
                         <a href="#work_experience" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">Work Experience</a>  
                         <a href="#portofolio" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">Portofolio</a>
                         <br/>
@@ -35,14 +35,13 @@
                 <div class="container mt-5">
                     <div class="flex flex-wrap">
                         <div class="w-full self-center px4 md:w-1/2">
-                            <img src="assets/foto-putri.jpg" alt="Photo Profil" class="max-w-full mx-auto rounded-full border-4 border-blue-900 md:w-48"/><br/>
+                            <img src="assets/foto-putri.jpg" alt="Photo Profil" class="max-w-full mx-auto rounded-full border-4 border-gradie border-blue-900 md:w-48"/><br/>
                             <div class="flex justify-center">
                                 <div class="flex items-center gap-1">
                                     <img src="assets/icon-loc.png" width="20px" height="20px" alt="Icon Logo" class="max-w-full mx-1 md:1/2"/> 
                                     <p><span class="font-medium">Yogyakarta, Indonesia</span></p>
                                 </div>
-                            </div>
-                            
+                            </div>  
                         </div>
     
                         <div class="w-full self-end px-4 md:w-1/2 text-center md:text-left md:content-center md:pr-5">
@@ -61,7 +60,11 @@
             
             <section id="personal_info">
                 <div class="container px-6 py-6 w-11/12 mx-auto rounded-lg shadow-lg mb-20 mt-10">
-                    <h2 class="text-2xl font-bold mt-2 mb-2">About me</h2>
+                    <div class="flex items-center gap-2 mb-1" >
+                        <img src="assets/icon-about.png " alt="Images Portofolio" class="w-6">
+                        <h1 class="text-2xl font-bold mt-2 mb-2">About me</h1>
+                    </div>
+                    
                     <article>
                         <p class="font-base mb-3 leading-relaxed text-justify">
                             I was born in Yogyakarta, October 30, 2000. I live in Blunyahrejo, Karangwaru, Yogyakarta. I'm a student at Universitas Teknologi Digital Indonesia,majoring in Informatics. I chose Informatics major because I am 
@@ -79,9 +82,12 @@
             </section>
 
             <section id="education">
-                <div class="container px-6 py-6 w-11/12 mx-auto rounded-lg shadow-lg mb-20">
-                <div class="p-4">
-                    <h1 class="text-2xl font-bold mt-2 mb-2">Education</h1>
+                <div class="container px-6 w-11/12 mx-auto rounded-lg shadow-lg mb-10">
+                <div>
+                    <div class="flex items-center gap-1 mb-1">
+                        <img src="assets/icon-education.png" alt="Icon Education" class="w-9">
+                        <h1 class="text-2xl font-bold mt-2 mb-2">Education</h1>
+                    </div>
                     <div class="lg:grid grid-cols-2 gap-4">
                         <div>
                             <h2 class="text-lg font-bold mt-2">MI Negeri 1 Yogyakarta</h2>
@@ -95,12 +101,12 @@
 
                         <div>
                             <h2 class="text-lg font-bold mt-2">SMK Negeri 2 Yogyakarta</h2>
-                            <p class="font-base mb-3 leading-relaxed">2015 - 2018, Multimedia Major</p>
+                            <p class="font-base mb-3 leading-relaxed">2015 - 2018 <br> <i>Multimedia Major</i></p>
                         </div>                            
 
                         <div>
                             <h2 class="text-lg font-bold mt-2">Universitas Teknologi Digital Indonesia</h2>
-                            <p class="font-base mb-3 leading-relaxed">2020 - Present, Informatics Major</p>
+                            <p class="font-base mb-3 leading-relaxed">2020 - Present <br> <i> Informatics Major</i></p>
                         </div>
                     </div>
                 </div>
@@ -108,12 +114,18 @@
 
             <section id="work_experience">
                 <div class="container px-6 py-6 w-11/12 mx-auto rounded-lg shadow-lg mb-20">
-                    <h2 class="text-2xl font-bold mt-2 mb-2">Work Experience</h2>
+                    <div class="flex items-center gap-2 mb-1">
+                        <img src="assets/icon-work.png" alt="Icon Work Experience" class="w-7">
+                        <h1 class="text-2xl font-bold mt-2 mb-2">Work Experience</h1>
+                    </div>
+                    
                     <div class="lg:grid grid-cols-3 gap-4">
                         <div>
                             <h2 class="text-lg font-bold mt-2">Digital Marketing</h2>
                             <p class="font-base mb-3 leading-relaxed md:pr-1">
-                                October - November 2018, UD. JDA STORE, Panggung Sari, 
+                                <i>October - November 2018</i> <br/>
+                                <span class="font-semibold">UD. JDA STORE</span><br/>
+                                Panggung Sari, 
                                 Sedan, Sariharjo, Ngaglik, Sleman, D.I Yogyakarta
                             </p>
                         </div>
@@ -121,14 +133,18 @@
                         <div>
                             <h2 class="text-lg font-bold mt-2">Graphic Designer</h2>
                             <p class="font-base mb-3 leading-relaxed md:pr-1">
-                                August 2019 - August 2020, Agung Digital Printing, Jl. Babarsari No.5, Catur Tunggal, Depok, Janti, Sleman, D.i Yogyakarta
+                                <i>August 2019 - August 2020</i> <br/> 
+                                <span class="font-semibold">Agung Digital Printing</span><br/>
+                                Jl. Babarsari No.5, Catur Tunggal, Depok, Janti, Sleman, D.I Yogyakarta
                             </p>
                         </div>
 
                         <div>
                             <h2 class="text-lg font-bold mt-2">Frelance  Software Tester</h2>
                             <p class="font-base mb-3 leading-relaxed md:pr-1">
-                                September 2020 - Present, PT. ICP Cipta Prima, bla bla bla
+                                <i>September 2020 - Present</i> <br/>
+                                <span class="font-semibold">PT. ICP Cipta Prima </span><br/>
+                                Jl. Bokohardjo, No 2, Banjeng, Maguwoharjo, Depok, Sleman, D.I Yogyakarta
                             </p>
                         </div>
                     </div>
@@ -136,21 +152,156 @@
             </section>
 
             <section id="portofolio">
-                <div class="container px-6 py-6 w-11/12 mx-auto rounded-lg shadow-lg mb-10">
-                    <h2 class="text-2xl font-bold mt-2 mb-2">Portofolio</h2>
-                    <div class="lg:grid grid-cols-4 gap-4">
-                        <div>1</div>
-                        <div>2</div>
-                        <div>3</div>
-                        <div>4</div>
-                        <div>5</div>
-                        <div>6</div>
-                        <div>7</div>
-                        <div>8</div>
-                        <div>9</div>
-                        <div>10</div>
-                        <div>11</div>
-                        <div>12</div>
+                <div class="container px-6 py-6 w-11/12 mx-auto">
+                    <div class="flex items-center gap-2 mb-1">
+                        <img src="assets/icon-portofolio.png" alt="Icon Portofolio" class="w-5">
+                        <h1 class="text-2xl font-bold mt-2 mb-2">Portofolio</h1>
+                    </div>
+                    
+                    <div class="grid lg:grid-cols-4 gap-4">
+                        <div>
+                            <div class="container px-6 py-6 mx-auto rounded-lg shadow-lg shadow-blue-900 mb-5 mt-5">
+                                <div class="flex items-center gap-2 mb-1" >
+                                    <img src="assets/port-1.png " alt="Images Portofolio 1" class="max-w-full">
+                                </div>
+                                <h2 class="text-lg font-bold mt-2">Alpha Icons</h2>
+                                <p class="text-base">
+                                    The award-winning collection contains two versions of 144 semi-transparent vector icons each, which have been specially designed for effortless use on any light or dark background.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="container px-6 py-6 mx-auto rounded-lg shadow-lg shadow-blue-900 mb-5 mt-5">
+                                <div class="flex items-center gap-2 mb-1" >
+                                    <img src="assets/port-2.png " alt="Images Portofolio 2" class="max-w-full">
+                                </div>
+                                <h2 class="text-lg font-bold mt-2">Vector UI Illustrations</h2>
+                                <p class="text-base">
+                                    Concept library business success and startups, office life and workflow, customer service, investment, cryptocurrency trading, banking, business technology and more.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="container px-6 py-6 mx-auto rounded-lg shadow-lg shadow-lg shadow-blue-900 mb-5 mt-5">
+                                <div class="flex items-center gap-2 mb-1" >
+                                    <img src="assets/port-3.png " alt="Images Portofolio 3" class="max-w-full">
+                                </div>
+                                <h2 class="text-lg font-bold mt-2">Corridoro Logo Design </h2>
+                                <p class="text-base">
+                                    Corridor Futuristic - Logo Design Concept, unused/ available for sale. Concept ingredients : Letter C, Corridor, Monogram.  Logo Design Concept, unused/ available for sale.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="container px-6 py-6 mx-auto rounded-lg shadow-lg shadow-lg shadow-blue-900 mb-5 mt-5">
+                                <div class="flex items-center gap-2 mb-1" >
+                                    <img src="assets/port-4.png " alt="Images Portofolio 4" class="max-w-full">
+                                </div>
+                                <h2 class="text-lg font-bold mt-2">DTT Art Logo Design </h2>
+                                <p class="text-base">
+                                   DTT Art Futuristic - Logo Design Concept, unused/ available for sale. Concept ingredients : Letter C, Corridor, Monogram.  Logo Design Concept unused/ available for sale.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="container px-6 py-6 mx-auto rounded-lg shadow-lg shadow-lg shadow-blue-900 mb-5 mt-5">
+                                <div class="flex items-center gap-2 mb-1" >
+                                    <img src="assets/port-5.png " alt="Images Portofolio 5" class="max-w-full">
+                                </div>
+                                <h2 class="text-lg font-bold mt-2">Architecture Website Design</h2>
+                                <p class="text-base">
+                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit eius harum corrupti odio, ratione aliquam quos.                        
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="container px-6 py-6 mx-auto rounded-lg shadow-lg shadow-lg shadow-blue-900 mb-5 mt-5">
+                                <div class="flex items-center gap-2 mb-1" >
+                                    <img src="assets/port-6.png " alt="Images Portofolio 6" class="max-w-full">
+                                </div>
+                                <h2 class="text-lg font-bold mt-2">Tascro Mobile Apps Concept</h2>
+                                <p class="text-base">
+                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit eius harum corrupti odio, ratione aliquam quos.                        
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="container px-6 py-6 mx-auto rounded-lg shadow-lg shadow-lg shadow-blue-900 mb-5 mt-5">
+                                <div class="flex items-center gap-2 mb-1" >
+                                    <img src="assets/port-7.png " alt="Images Portofolio 7" class="max-w-full">
+                                </div>
+                                <h2 class="text-lg font-bold mt-2">Crypto Mobile Apps Concept</h2>
+                                <p class="text-base">
+                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit eius harum corrupti odio, ratione aliquam quos.                        
+                                </p>
+                            </div>  
+                        </div>
+
+                        <div>
+                            <div class="container px-6 py-6 mx-auto rounded-lg shadow-lg shadow-lg shadow-blue-900 mb-5 mt-5">
+                                <div class="flex items-center gap-2 mb-1" >
+                                    <img src="assets/port-8.png " alt="Images Portofolio 8" class="max-w-full">
+                                </div>
+                                <h2 class="text-lg font-bold mt-2">Crypto Mobile Apps Concept</h2>
+                                <p class="text-base">
+                                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit eius harum corrupti odio, ratione aliquam quos.                        
+                                </p>
+                            </div>  
+                        </div>
+
+                        <div>
+                            <div class="container px-6 py-6 mx-auto rounded-lg shadow-lg shadow-lg shadow-blue-900 mb-5 mt-5">
+                                <div class="flex items-center gap-2 mb-1" >
+                                    <img src="assets/port-9.png " alt="Images Portofolio 9" class="max-w-full">
+                                </div>
+                                <h2 class="text-lg font-bold mt-2">Digital Learn Artwork</h2>
+                                <p class="text-base">
+                                    The idea is to promote a digital space for distance learning for children.Children are our future, and a good future. Here a child not only has fun, but also gets the necessary knowledge.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="container px-6 py-6 mx-auto rounded-lg shadow-lg shadow-lg shadow-blue-900 mb-5 mt-5">
+                                <div class="flex items-center gap-2 mb-1" >
+                                    <img src="assets/port-10.png " alt="Images Portofolio 10" class="max-w-full">
+                                </div>
+                                <h2 class="text-lg font-bold mt-2">Shark Girl Artwork</h2>
+                                <p class="text-base">
+                                    This piece shows an interesting choice for a character and its outfit. The viewer feels sea vibes thanks to the blue color mixture, yet the illustration style evokes cheer and fun.                         
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="container px-6 py-6 mx-auto rounded-lg shadow-lg shadow-lg shadow-blue-900 mb-5 mt-5">
+                                <div class="flex items-center gap-2 mb-1" >
+                                    <img src="assets/port-11.png " alt="Images Portofolio 11" class="max-w-full">
+                                </div>
+                                <h2 class="text-lg font-bold mt-2">Meditation Artwork</h2>
+                                <p class="text-base">
+                                    Taking the time to center yourself is one of the most important things to have a healthy balanced life. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, sint.
+                                </p>
+                            </div>
+                        </div>
+                            <div class="container px-6 py-6 mx-auto rounded-lg shadow-lg shadow-lg shadow-blue-900 mb-5 mt-5">
+                                <div class="flex items-center gap-2 mb-1" >
+                                    <img src="assets/port-12.png " alt="Images Portofolio 12" class="max-w-full">
+                                </div>
+                                <h2 class="text-lg font-bold mt-2">Influence Artwork</h2>
+                                <p class="text-base">
+                                    Art influences society by changing opinions, instilling values and translating experiences across space and time. Research has shown art affects the fundamental sense of self.
+                                </p>
+                            </div>
+                        <div>
+
+                        </div>
                     </div>
                 </div>
             </section>
@@ -158,7 +309,25 @@
     </main>
 
     <footer align="center" class="mb-5 text-white">
-        <p class="text-base font-bold">Putri Dwi Oktaviani</p>
+            <div class="flex items-center justify-center gap-4 mb-3">
+                <a href="https://www.instagram.com/putridktv/?hl=id" target="_blank" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">
+                    <img src="assets/logo-instagram.png" alt="Logo Instagram" class="w-6"/>
+                </a>
+
+                <a href="https://twitter.com/putridktv_" target="_blank" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">
+                    <img src="assets/logo-twitter.png" alt="Logo Twitter" class="w-6"/>
+                </a>
+
+                <a href="https://www.linkedin.com/in/putri-d-075630125/" target="_blank" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">
+                    <img src="assets/logo-wa.png" alt="Logo Whatsapp" class="w-6"/>
+                </a>
+
+                <a href="https://www.linkedin.com/in/putri-d-075630125/" target="_blank" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">
+                    <img src="assets/logo-linkedin.png" alt="Logo Linkedin" class="w-6"/>
+                </a>    
+            </div>
+
+        <p class="text-lg font-bold">Putri Dwi Oktaviani</p>
         <p class="text-base">Copyright &copy; 2022</p>
     </footer> 
 </body>
