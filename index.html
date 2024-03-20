@@ -9,8 +9,29 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="main-container bg-gradient-to-r from-sky-600 to-blue-900">
-    <header>
+<!-- <body class="main-container bg-gradient-to-r from-sky-600 to-blue-900"> -->
+    <!-- <header>
         <div class="bg-white bg-opacity-10 text-white top-0 left-0 flex-wrap p-4">
+            <div class="container mx-auto">
+                <div class="md:flex md:justify-around">
+                    <div class="flex justify-center"> 
+                        <p class="font-bold">Putri Dwi Oktaviani</p>
+                    </div>
+                            
+                    <nav class="flex justify-center flex-wrap gap-3">
+                        <a href="#personal_info" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">About</a> 
+                        <a href="#education" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">Education</a> 
+                        <a href="#work_experience" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">Work Experience</a>  
+                        <a href="#portofolio" class="hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">Portofolio</a>
+                        <br/>
+                    </nav>
+              </div>
+            </div>
+        </div>
+    </header> -->
+
+    <header class="fixed top-0 w-full z-50">
+        <div id="navbar" class="bg-gradient-to-r from-sky-600 to-blue-900 text-white flex-wrap p-4 transition duration-300 ease-in-out">
             <div class="container mx-auto">
                 <div class="md:flex md:justify-around">
                     <div class="flex justify-center"> 
@@ -29,7 +50,7 @@
         </div>
     </header>
 
-    <main>
+    <main class="pt-20 ">
         <div id="main-container" class="lg:mx-auto">
             <section id="intro">
                 <div class="container mt-5">
@@ -65,12 +86,10 @@
                     
                     <article>
                         <p class="text-base mb-3 leading-relaxed text-justify">
-                            I am a 6th semester student at Universitas Teknologi Digital indonesia. 
-                            I am interested in Backend Engineering and Software Quality Assurance. 
-                            I have experience in participating in the Studi Independen program Kampus Merdeka, 
-                            studying Backend Engineering using Golang programming language. 
-                            In this program I create web-based applications using HTML, CSS, and Golang which 
-                            are integrated with PostgreSQL. I also work part time as a Software Tester.
+                            I am a fresh graduate student of the Informatics Engineering Program at Indonesian Digital Technology 
+                            University. I am interested in Software Quality Assurance and I have experience participated in the MSIB 
+                            Kampus Merdeka Internship program with the position as a Software Quality Engineer. I also work freelance as a 
+                            Software Tester which has been running for more than 2 years.
                         </p>
                     </article>
                 </div>
@@ -101,7 +120,7 @@
 
                         <div>
                             <h2 class="text-lg font-bold mt-2">Universitas Teknologi Digital Indonesia</h2>
-                            <p class="font-base mb-3 leading-relaxed">2020 - Present <br> <i> Informatics Major</i></p>
+                            <p class="font-base mb-3 leading-relaxed">2020 - 2024 <br> <i> Informatics Major, IPK 3.99</i></p>
                         </div>
                     </div>
                 </div>
@@ -116,7 +135,7 @@
                     
                     <div class="lg:grid grid-cols-3 gap-4">
                         <div>
-                            <h2 class="text-lg font-bold mt-2">Digital Marketing</h2>
+                            <h2 class="text-lg font-bold mt-2">Digital Marketing Intern</h2>
                             <p class="font-base mb-3 leading-relaxed md:pr-1">
                                 <i>October - November 2018</i> <br/>
                                 <span class="font-semibold">UD. JDA STORE</span><br/>
@@ -140,6 +159,15 @@
                                 <i>September 2021 - Present</i> <br/>
                                 <span class="font-semibold">PT. ICP Cipta Prima </span><br/>
                                 Jl. Bokohardjo, No 2, Banjeng, Maguwoharjo, Depok, Sleman, D.I Yogyakarta
+                            </p>
+                        </div>
+
+                        <div>
+                            <h2 class="text-lg font-bold mt-2">Software Quality Engineer Intern</h2>
+                            <p class="font-base mb-3 leading-relaxed md:pr-1">
+                                <i>February - June 2023</i> <br/>
+                                <span class="font-semibold">PT. Qatros Teknologi Nusantara </span><br/>
+                                Jl. Sarirejo No.2, Maguwoharjo, Depok, Sleman Yogyakarta
                             </p>
                         </div>
                     </div>
@@ -198,6 +226,19 @@
                                 </form>
                             </div>
                         </div>
+
+                        <div>
+                            <div class="h-full container px-5 py-5 mx-auto rounded-lg shadow-lg shadow-lg shadow-blue-900 mb-5 mt-5 hover:scale-105">
+                                <div class="flex items-center gap-2 mb-1" >
+                                    <img src="assets/qatros.jpg" alt="Images Portofolio 3" class="w-full h-[205px]">
+                                </div>
+                                <h2 class="text-lg font-bold mt-2">Bantu.in</h2>
+                                <p class="text-base mb-5">
+                                    I became a Software Quality Assurance Engineer in creating the Bantu.in application project while participating in the MBKM Internship program at PT Qatros Teknologi Nusantara. This project was carried out for 3 months and testing was done by manual testing.                                <form class="item-center" action='https://play.google.com/store/apps/details?id=com.qatros.bantuin&pcampaignid=web_share'>
+                                    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">View</button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -223,7 +264,20 @@
                 </a>    
             </div>
         <p class="text-lg font-bold">Putri Dwi Oktaviani</p>
-        <p class="text-base">Copyright &copy; 2022</p>
+        <p class="text-base">Copyright &copy; 2024</p>
     </footer> 
+    
+    <script>
+        window.addEventListener('scroll', function() {
+            var navbar = document.getElementById('navbar');
+            if (window.scrollY > 0) {
+                navbar.classList.add('bg-gradient-to-r', 'from-sky-600', 'to-blue-900'); // Tambahkan kelas gradient jika di-scroll
+                navbar.classList.remove('bg-white', 'bg-opacity-10'); // Hapus kelas warna putih dengan transparansi
+            } else {
+                navbar.classList.remove('bg-gradient-to-r', 'from-sky-600', 'to-blue-900'); // Hapus kelas gradient jika di-scroll ke atas
+                navbar.classList.add('bg-white', 'bg-opacity-10'); // Tambahkan kelas warna putih dengan transparansi
+            }
+        });
+    </script>
 </body>
 </html>
